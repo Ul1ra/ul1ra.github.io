@@ -1,0 +1,184 @@
+// 5. Home-style-2
+
+/* 5.1 wpo-about-area-s2  */
+
+.wpo-about-area-s2{
+	position: relative;
+
+	.wpo-about-img{
+		position: relative;
+		padding: 30px;
+		background: $bg-color2;
+		border-radius: 6px;
+
+		.icon-1,
+		.icon-2,
+		.icon-3{
+			position: absolute;
+			left: 0;
+			top: 2%;
+			width: 110px;
+			height: 110px;
+			padding: 20px;
+			background: $white;
+			border-radius: 25px;
+
+			img{
+				border-radius: 0;
+			}
+
+
+			@media(max-width:991px){
+				width: 95px;
+				height: 95px;
+				padding: 15px;
+				border-radius: 15px;
+			}
+			@media(max-width:575px){
+				width: 70px;
+				height: 70px;
+				padding: 15px;
+				border-radius: 15px;
+			}
+		}
+
+		.icon-2{
+			left: auto;
+			right: 0;
+		}
+		.icon-3{
+			left: auto;
+			right: 0;
+			top: auto;
+			bottom: 2%;
+
+			@media(max-width:991px){
+				right: 0;
+			}
+			@media(max-width:575px){
+				left: auto;
+				right: 0;
+				top: auto;
+			}
+		}
+
+		.project{
+			position: absolute;
+			left: 0;
+			bottom: 2%;
+			padding: 5px 20px;
+			background: $white;
+			border-radius: 40px;
+			display: flex;
+			align-items: center;
+
+			.icon{
+				.fi{
+					margin-right: 10px;
+					&:before{
+						font-size: 50px;
+						color:$theme-primary-color;
+
+						@media(max-width:575px){
+							font-size: 40px;
+						}
+					}
+				}
+			}
+
+			.p-text{
+				h3{
+					font-size: 25px;
+					margin-bottom: 0px;
+					color: $dark-gray;
+
+					@media(max-width:575px){
+						font-size: 20px;
+					}
+				}
+
+				p{
+					font-size: 15px;
+					margin-bottom: 0;
+					color: $text-color;
+				}
+			}
+
+		}
+	}
+}
+
+
+/* 5.2 wpo-service-area-s2  */
+.wpo-service-area-s2{
+	.wpo-service-wrap{
+		.wpo-service-item{
+			box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+			border: 0;
+			background: none;
+		}
+	}
+}
+
+
+/* 5.3 wpo-work-area-s2  */
+.wpo-work-area-s2{
+	.wpo-work-wrap{
+		.wpo-work-item{
+			text-align: center;
+			padding: 30px;
+
+			@media(max-width:1200px){
+              padding: 25px;
+			}
+			ul{
+				display: block;
+
+				li.date{
+					display: block;
+				}
+				li.link{
+					text-align: center;
+				}
+
+				li{
+					margin-bottom: 20px;
+
+					@media(max-width:1200px){
+						margin-bottom: 15px;
+					}
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+
+				li.position span span{
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+
+/* 5.4 partners-section  */
+
+.partners-section{
+	background: $bg-color;
+	padding: 85px 0;
+    .partners-slider{
+        .grid{
+            img{
+                filter: grayscale(100%);
+                margin: 0 auto;
+            }
+        }
+
+        .owl-item img{
+            width: unset;
+        }
+
+        .owl-nav{
+            display: none;
+        }
+    }
+}

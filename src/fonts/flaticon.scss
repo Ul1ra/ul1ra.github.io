@@ -1,0 +1,157 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?84a5eeb889ab904f87c31ee6e8943da4") format("truetype"),
+url("./flaticon.woff?84a5eeb889ab904f87c31ee6e8943da4") format("woff"),
+url("./flaticon.woff2?84a5eeb889ab904f87c31ee6e8943da4") format("woff2"),
+url("./flaticon.eot?84a5eeb889ab904f87c31ee6e8943da4#iefix") format("embedded-opentype"),
+url("./flaticon.svg?84a5eeb889ab904f87c31ee6e8943da4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "verified": "\f101",
+    "coding": "\f102",
+    "app-development": "\f103",
+    "smartphone": "\f104",
+    "software-developer": "\f105",
+    "vector": "\f106",
+    "palette": "\f107",
+    "add": "\f108",
+    "social-media": "\f109",
+    "promotion": "\f10a",
+    "email-marketing": "\f10b",
+    "self-growth": "\f10c",
+    "right-arrow": "\f10d",
+    "left-arrow": "\f10e",
+    "facebook": "\f10f",
+    "dribbble": "\f110",
+    "twitter": "\f111",
+    "linkedin": "\f112",
+    "instagram": "\f113",
+    "heart": "\f114",
+    "telephone": "\f115",
+    "phone-call": "\f116",
+    "envelope": "\f117",
+    "mail": "\f118",
+    "location": "\f119",
+    "quote": "\f11a",
+    "right-quote-sign": "\f11b",
+    "left-quote": "\f11c",
+    "right-quote": "\f11d",
+    "play": "\f11e",
+    "play-1": "\f11f",
+    "loupe": "\f120",
+    "user": "\f121",
+);
+
+.flaticon-verified:before {
+    content: map-get($flaticon-map, "verified");
+}
+.flaticon-coding:before {
+    content: map-get($flaticon-map, "coding");
+}
+.flaticon-app-development:before {
+    content: map-get($flaticon-map, "app-development");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-software-developer:before {
+    content: map-get($flaticon-map, "software-developer");
+}
+.flaticon-vector:before {
+    content: map-get($flaticon-map, "vector");
+}
+.flaticon-palette:before {
+    content: map-get($flaticon-map, "palette");
+}
+.flaticon-add:before {
+    content: map-get($flaticon-map, "add");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon-map, "social-media");
+}
+.flaticon-promotion:before {
+    content: map-get($flaticon-map, "promotion");
+}
+.flaticon-email-marketing:before {
+    content: map-get($flaticon-map, "email-marketing");
+}
+.flaticon-self-growth:before {
+    content: map-get($flaticon-map, "self-growth");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-dribbble:before {
+    content: map-get($flaticon-map, "dribbble");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-right-quote-sign:before {
+    content: map-get($flaticon-map, "right-quote-sign");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-play-1:before {
+    content: map-get($flaticon-map, "play-1");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
