@@ -10,6 +10,8 @@ import icon3 from '../../images/icon/docker.svg'
 import shape1 from '../../images/slider/line-1.png'
 import shape2 from '../../images/slider/line-2.png'
 
+import Shield from "../../images/icon/shield3.png"
+
 
 
 const Hero = () => {
@@ -31,7 +33,7 @@ const Hero = () => {
                                         <p>I'm a web developer looking to continue my new career in Full Stack, starting with Frontend!</p>
                                     </div>
                                     <div className="clearfix"></div>
-                                    <div className="slide-btn"><Link className="theme-btn" to="contact" spy={true} smooth={true} duration={500}>Hire Me</Link></div>
+                                    <div className="slide-btn"><Link className="theme-btn" to="footer" spy={true} smooth={true} duration={500}>Interested</Link></div>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +49,7 @@ const Hero = () => {
                         <div className="icon-3 floating-item"><img src={icon3} alt="" /></div>
                         <div className="project floating-item">
                             <div className="icon">
-                                <i className="fi flaticon-verified"></i>
+                            <img className="shield" src={Shield} />
                             </div>
                             <div className="p-text">
                                 <h3><span data-count="1500">5</span>+</h3>
