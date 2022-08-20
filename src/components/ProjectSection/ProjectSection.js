@@ -7,6 +7,9 @@ import simg1 from '../../images/project/line-1.png'
 import simg2 from '../../images/project/line-2.png'
 // import ProjectSingle from '../ProjectSingle/ProjectSingle';
 
+import expIcon from "../../images/icon/startup2.png"
+import arrow from "../../images/icon/arrow-rightSM.png"
+
 const settings = {
     dots: false,
     arrows: true,
@@ -86,7 +89,7 @@ const ProjectSection = (props) => {
                         </div>
                         <div className="col-lg-6 offset-lg-2">
                             <div className="sec-title-icon">
-                                <i className="fi flaticon-self-growth"></i>
+                                <img src={expIcon}/>
                             </div>
                         </div>
                     </div>
