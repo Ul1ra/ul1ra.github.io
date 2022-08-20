@@ -14,6 +14,8 @@ import imiCert from '../../images/work/BA.pdf'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
 
+import arrow from "../../images/icon/arrow-rightSM.png"
+
 const Expriences = [
     {
         date: '2022 - 2022',
@@ -63,7 +65,7 @@ const Exprience = (props) => {
                                 <li className="date">{exprience.date}</li>
                                 <li className="logo"><img src={exprience.logo} alt=""/></li>
                                 <li className="position">{exprience.position} <span>{exprience.companyName} <span>{exprience.workFrom}</span></span></li>
-                                <li className="link"><a href={exprience.link} target="_blank" rel="noreferrer">More info...</a></li>
+                                <li className="link"><img src={arrow}/><a href={exprience.link} target="_blank" rel="noreferrer">More info...</a></li>
                             </ul>
                         </div>
                     ))}
