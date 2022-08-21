@@ -10,8 +10,6 @@ import icon3 from '../../images/icon/docker.svg'
 import shape1 from '../../images/slider/line-1.png'
 import shape2 from '../../images/slider/line-2.png'
 
-import Shield from "../../images/icon/shield3.png"
-
 
 
 const Hero = () => {
@@ -49,11 +47,11 @@ const Hero = () => {
                         <div className="icon-3 floating-item"><img src={icon3} alt="" /></div>
                         <div className="project floating-item">
                             <div className="icon">
-                            <img className="shield" src={Shield} />
+                                <i className="fi flaticon-verified"></i>
                             </div>
                             <div className="p-text">
                                 <h3><span data-count="1500">5</span>+</h3>
-                                <p>Worked on Projects</p>
+                                <p>Projects</p>
                             </div>
                         </div>
                     </div>

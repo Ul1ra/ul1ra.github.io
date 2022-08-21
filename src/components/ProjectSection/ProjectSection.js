@@ -8,7 +8,6 @@ import simg2 from '../../images/project/line-2.png'
 // import ProjectSingle from '../ProjectSingle/ProjectSingle';
 
 import expIcon from "../../images/icon/startup2.png"
-import arrow from "../../images/icon/arrow-rightSM.png"
 
 const settings = {
     dots: false,

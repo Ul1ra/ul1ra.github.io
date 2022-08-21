@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 // Logos
 import sit from '../../images/work/sit.png'
@@ -13,8 +14,6 @@ import udacityCert from '../../images/work/Udacity.pdf'
 import imiCert from '../../images/work/BA.pdf'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
-
-import arrow from "../../images/icon/arrow-rightSM.png"
 
 const Expriences = [
     {
@@ -65,7 +64,7 @@ const Exprience = (props) => {
                                 <li className="date">{exprience.date}</li>
                                 <li className="logo"><img src={exprience.logo} alt=""/></li>
                                 <li className="position">{exprience.position} <span>{exprience.companyName} <span>{exprience.workFrom}</span></span></li>
-                                <li className="link"><img src={arrow}/><a href={exprience.link} target="_blank" rel="noreferrer">More info...</a></li>
+                                <li className="link"><Link to="/">More Info...</Link></li>
                             </ul>
                         </div>
                     ))}
