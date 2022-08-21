@@ -326,7 +326,28 @@
 						}
 					}
 				}
+				&:nth-child(13) {
+					background: linear-gradient(180deg, rgba(255, 192, 203, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: #FFC0CB;
+						}
+					}
+				}
+				&:nth-child(14) {
+					background: linear-gradient(180deg, rgba(64, 224, 208, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: #40E0D0;
+						}
+					}
+				}
 			}
+			
 		}
 	}
 
