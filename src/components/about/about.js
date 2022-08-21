@@ -35,7 +35,7 @@ const About = (props) => {
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <p>CSS3, Sass</p>
+                                        <p>CSS3</p>
                                     </div>
                                 </div>
                                 <div className="grid">
@@ -45,7 +45,12 @@ const About = (props) => {
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <p>React, Redux</p>
+                                        <p>React</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Redux</p>
                                     </div>
                                 </div>
                                 <div className="grid">
@@ -86,6 +91,16 @@ const About = (props) => {
                                 <div className="grid">
                                     <div className="grid-inner">
                                         <p>Tailwind</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Sass</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Bootstrap</p>
                                     </div>
                                 </div>
                             </div>
