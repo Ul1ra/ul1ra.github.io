@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ListItem from "@material-ui/core/List";
-import { Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 import './style.css';
 
 const menus = [
@@ -48,8 +48,8 @@ const MobileMenu = () => {
                     {menus.map((item, mn) => {
                         return (
                             <ListItem key={mn}>
-                            <Link
-                                to={item.link} spy={true} smooth={true}  duration={500} onClick={ClickHandler}>{item.title}</Link>
+                                <Link
+                                    to={item.link} spy={true} smooth={true} duration={500} onClick={ClickHandler}>{item.title}</Link>
                             </ListItem>
                         )
                     })}
