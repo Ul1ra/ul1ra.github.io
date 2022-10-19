@@ -346,6 +346,77 @@
 						}
 					}
 				}
+				&:nth-child(15) {
+					background: linear-gradient(180deg, rgba(219, 224, 64, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(219, 224, 64);
+						}
+					}
+				}
+				&:nth-child(16) {
+					background: linear-gradient(180deg, rgba(219, 64, 224, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(219, 64, 224);
+						}
+					}
+				}
+				&:nth-child(17) {
+					background: linear-gradient(180deg, rgba(162, 162, 168, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(162, 162, 168);
+						}
+					}
+				}
+				&:nth-child(18) {
+					background: linear-gradient(180deg, rgba(76, 90, 212, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(76, 90, 212);
+						}
+					}
+				}
+				&:nth-child(19) {
+					background: linear-gradient(180deg, rgba(71, 232, 95, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(71, 232, 95);
+						}
+					}
+				}
+				&:nth-child(20) {
+					background: linear-gradient(180deg, rgba(243, 176, 52, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(243, 176, 52);
+						}
+					}
+				}
+				&:nth-child(21) {
+					background: linear-gradient(180deg, rgba(232, 71, 211, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
+
+					.grid-inner {
+						p {
+							margin-bottom: 0;
+							color: rgb(232, 71, 211);
+						}
+					}
+				}
+
 			}
 			
 		}

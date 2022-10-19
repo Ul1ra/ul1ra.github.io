@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 // Logos
 import sit from '../../images/work/sit.png'
 import felixideas from '../../images/work/felixideas.png'
 import udacity from '../../images/work/udacity.png'
 import imi from '../../images/work/imi.png'
+import zeebuz from '../../images/work/zeebuz.png'
 
 // Certificates and Work Experience
 import sitCert from '../../images/work/CertificateSIT.pdf'
@@ -17,7 +17,15 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 
 const Expriences = [
     {
-        date: '2022 - 2022',
+        date: 'May 2022 +',
+        logo: zeebuz,
+        position: 'Front End Internship',
+        companyName: 'Zeebuz, USA',
+        workFrom: 'Remote',
+        link: 'https://zeebuz.com/',
+    },
+    {
+        date: 'Feb - Apr 2022',
         logo: sit,
         position: 'Full-Stack Bootcamp',
         companyName: 'SIT Academy, Zurich, CH',
@@ -64,7 +72,7 @@ const Exprience = (props) => {
                                 <li className="date">{exprience.date}</li>
                                 <li className="logo"><img src={exprience.logo} alt=""/></li>
                                 <li className="position">{exprience.position} <span>{exprience.companyName} <span>{exprience.workFrom}</span></span></li>
-                                <li className="link"><Link to="/">More Info...</Link></li>
+                                <li className="link"><a href={exprience.link} target="_blank">More Info...</a></li>
                             </ul>
                         </div>
                     ))}
