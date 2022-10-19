@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab149752.css",
-    "main.js": "/static/js/main.7b36ca1d.js",
+    "main.js": "/static/js/main.f5eadf4a.js",
     "static/js/787.b1a83f32.chunk.js": "/static/js/787.b1a83f32.chunk.js",
     "static/media/2B.jpg": "/static/media/2B.bf860579cd87def32c09.jpg",
     "static/media/ArbeitszeugnisJF.pdf": "/static/media/ArbeitszeugnisJF.8877795a92da99ec7b6c.pdf",
@@ -9,7 +9,7 @@
     "static/media/CertificateSIT.pdf": "/static/media/CertificateSIT.4c058a410faec1df95a5.pdf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/gradient.png": "/static/media/gradient.68bd0c7a73263d10f743.png",
-    "static/media/cv.pdf": "/static/media/cv.fceb5e859e15aa05a605.pdf",
+    "static/media/cv.pdf": "/static/media/cv.c1bdbf3697127219a1dd.pdf",
     "static/media/memoryGame.png": "/static/media/memoryGame.c2ea94d4412f9b90fac7.png",
     "static/media/BA.pdf": "/static/media/BA.b31897bfc766a1a2c6c7.pdf",
     "static/media/themify.svg?-fvbane": "/static/media/themify.f0fc8c798eac5636249c.svg",
@@ -46,11 +46,11 @@
     "index.html": "/index.html",
     "static/media/vue.svg": "/static/media/vue.4921ee763e7954a01fa7d9bc10d1ab93.svg",
     "main.ab149752.css.map": "/static/css/main.ab149752.css.map",
-    "main.7b36ca1d.js.map": "/static/js/main.7b36ca1d.js.map",
+    "main.f5eadf4a.js.map": "/static/js/main.f5eadf4a.js.map",
     "787.b1a83f32.chunk.js.map": "/static/js/787.b1a83f32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab149752.css",
-    "static/js/main.7b36ca1d.js"
+    "static/js/main.f5eadf4a.js"
   ]
 }
