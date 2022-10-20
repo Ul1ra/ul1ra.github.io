@@ -17,11 +17,11 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 
 const Expriences = [
     {
-        date: 'May 2022 +',
+        date: 'May 2022 - Present',
         logo: zeebuz,
         position: 'Front End Internship',
         companyName: 'Zeebuz, USA',
-        workFrom: 'Remote',
+        workFrom: '(Remote)',
         link: 'https://zeebuz.com/',
     },
     {
@@ -29,19 +29,19 @@ const Expriences = [
         logo: sit,
         position: 'Full-Stack Bootcamp',
         companyName: 'SIT Academy, Zurich, CH',
-        workFrom: 'On Site',
+        // workFrom: 'On Site',
         link: sitCert,
     },
     {
-        date: '2017 - 2018',
+        date: 'Feb - Aug 2018',
         logo: felixideas,
         position: 'Software Engineer Intern, Assistant Trainer',
         companyName: 'felixideas GmbH, Basel, CH',
-        workFrom: 'On Site',
+        // workFrom: 'On Site',
         link: felixCert,
     },
     {
-        date: '2017 - 2018',
+        date: 'Oct 2017 - May 2018',
         logo: udacity,
         position: 'Front End Developer Nanodegree',
         companyName: 'Udacity, Basel, CH',
@@ -49,11 +49,11 @@ const Expriences = [
         link: udacityCert,
     },
     {
-        date: '2011 - 2013',
+        date: 'Sep 2011 - Jun 2013',
         logo: imi,
         position: 'BA in Hospitality Entrepreneurship',
         companyName: 'IMI, Lucerne, CH',
-        workFrom: 'On Site',
+        // workFrom: 'On Site',
         link: imiCert,
     },
 
