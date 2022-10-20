@@ -22,7 +22,7 @@ const Hero = () => {
                             <div className="col-xl-6 col-lg-6 col-12">
                                 <div className="wpo-static-hero-inner">
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2><span>Hello,</span>Hi, I'm Ben</h2>
+                                        <h2><span>Hello,</span>I'm Ben</h2>
                                     </div>
                                     <div data-swiper-parallax="300" className="slide-sub-title">
                                         <h5>Full Stack Web Developer</h5>
