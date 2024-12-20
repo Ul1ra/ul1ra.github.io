@@ -28,7 +28,7 @@ const Hero = () => {
                                         <h5>Salesforce Administrator</h5>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>Trilingual Salesforce wizard weaving user-friendly magic with tech-savvy spells in English, German, and French—bridging the gap between sleek design and seamless CRM solutions, all while thriving on challenges and collaboration.</p>
+                                        <p>Tech-savvy trilingual Salesforce in English, German, and French bridging the gap between sleek design and seamless CRM solutions, all while thriving on challenges and collaboration.</p>
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="slide-btn"><Link className="theme-btn" to="footer" spy={true} smooth={true} duration={500}>Interested</Link></div>

@@ -34,48 +34,6 @@ const Footer = (props) => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col col-lg-2 col-md-6 col-12">
-                            <div className="widget link-widget">
-                                <div className="widget-title">
-                                    <h3>Navigation</h3>
-                                </div>
-                                <ul>
-                                    <li><Link to="about" spy={true} smooth={true}  duration={500}>About us</Link></li>
-                                    <li><Link to="contact" spy={true} smooth={true}  duration={500}>Contact us</Link></li>
-                                    <li><Link to="portfolio" spy={true} smooth={true}  duration={500}>Projects</Link></li>
-                                    <li><Link to="blog" spy={true} smooth={true}  duration={500}>Recent Post</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col col-lg-3 col-md-6 col-12">
-                            <div className="widget link-widget service-link-widget">
-                                <div className="widget-title">
-                                    <h3>All Services</h3>
-                                </div>
-                                <ul>
-                                    <li><Link to="service" spy={true} smooth={true}  duration={500}>Web Design</Link></li>
-                                    <li><Link to="service" spy={true} smooth={true}  duration={500}>Web Development</Link></li>
-                                    <li><Link to="service" spy={true} smooth={true}  duration={500}>Brand Identity</Link></li>
-                                    <li><Link to="service" spy={true} smooth={true}  duration={500}>Digital Marketing</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col col-lg-3 col-md-6 col-12">
-                            <div className="widget newsletter-widget">
-                                <div className="widget-title">
-                                    <h3>Newsletter</h3>
-                                </div>
-                                <p>Must explain to you how all this mistaken idea pleasure born and give you a complete account.</p>
-                                <form onSubmit={SubmitHandler}>
-                                    <div className="input-1">
-                                        <input type="email" className="form-control" placeholder="Email Address *" required/>
-                                    </div>
-                                    <div className="submit clearfix">
-                                        <button type="submit"><i className="ti-email"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
                 <div className="shadow-shape">

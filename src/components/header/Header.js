@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import MobileMenu from '../MobileMenu/MobileMenu'
-import cv from '../../images/cv.pdf'
+import cv from '../../images/CVBenCunningham.pdf'
 
 
 const Header = (props) => {
@@ -40,7 +40,7 @@ const Header = (props) => {
                             <div className="col-lg-2 col-md-2 col-2">
                                 <div className="header-right">
                                     <div className="header-btn">
-                                        <a onClick={ClickHandler} className="theme-btn" download="My Cv" href={cv}
+                                        <a onClick={ClickHandler} className="theme-btn" download="CV Ben Cunningham" href={cv}
                                             title="My CV">
                                             <img className="hide-img" alt="ImageName" src={cv} />
                                             My CV

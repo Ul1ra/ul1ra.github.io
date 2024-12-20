@@ -14,10 +14,6 @@ const About = (props) => {
                                 <h2>2+</h2>
                                 <span>Years of Experience</span>
                             </div>
-                            {/* <div className="client">
-                                <h3><span data-count="100">100</span>%</h3>
-                                <p>Clients Satisfections</p>
-                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
@@ -29,7 +25,6 @@ const About = (props) => {
                             <div className="wpo-about-funfact">
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        {/* <h3><span data-count="37">37</span>%</h3> */}
                                         <p>HTML5</p>
                                     </div>
                                 </div>
