@@ -40,17 +40,7 @@ const About = (props) => {
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <p>Sass</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Tailwind</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Bootstrap</p>
+                                        <p>TailwindCSS</p>
                                     </div>
                                 </div>
                                 <div className="grid">
@@ -60,27 +50,12 @@ const About = (props) => {
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
+                                        <p>Vue.js</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
                                         <p>Quasar</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Vue</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>React</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Redux</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Vuejs</p>
                                     </div>
                                 </div>
                                 <div className="grid">
@@ -95,42 +70,43 @@ const About = (props) => {
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <p>Angular</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Typescript</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>CI/CD</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Git/Gitlab</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Python</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>PostreSQL</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
-                                        <p>Django</p>
-                                    </div>
-                                </div>
-                                <div className="grid">
-                                    <div className="grid-inner">
                                         <p>Linux</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Documentation</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Sales Cloud</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Marketing Cloud</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Scrum</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Jira</p>
+                                    </div>
+                                </div>
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Problem Solving</p>
+                                    </div>
+                                </div>
+                                
+                                <div className="grid">
+                                    <div className="grid-inner">
+                                        <p>Video Editing</p>
                                     </div>
                                 </div>
                             </div>

@@ -5,7 +5,9 @@ import sit from '../../images/work/sit.png'
 import felixideas from '../../images/work/felixideas.png'
 import udacity from '../../images/work/udacity.png'
 import imi from '../../images/work/imi.png'
-import zeebuz from '../../images/work/zeebuz.png'
+import self from '../../images/work/selfwork.png'
+import headswap from '../../images/work/headswap.png'
+import salesforce from '../../images/salesforce.png'
 
 // Certificates and Work Experience
 import sitCert from '../../images/work/CertificateSIT.pdf'
@@ -17,19 +19,33 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 
 const Expriences = [
     {
-        date: 'May 2022 - Present',
-        logo: zeebuz,
-        position: 'Front End Internship',
-        companyName: 'Zeebuz, USA',
+        date: 'May 2024',
+        logo: salesforce,
+        position: 'Certified Salesforce Administrator',
+        companyName: 'Bergen, NL',
         workFrom: '(Remote)',
-        link: 'https://zeebuz.com/',
+        link: '',
+    },{
+        date: 'Dec 2023 - Feb 2024',
+        logo: headswap,
+        position: 'Low Code Traineeship and Salesforce Admin',
+        companyName: 'Zurich, CH',
+        workFrom: '(Remote)',
+        link: 'https://headswap.com/',
+    },{
+        date: 'May 2022 - Dec 2024',
+        logo: self,
+        position: 'Self Development Vue, React, Node, Django, Python',
+        companyName: 'Bern, CH',
+        workFrom: '(Remote)',
+        link: '',
     },
     {
         date: 'Feb - Apr 2022',
         logo: sit,
         position: 'Full-Stack Bootcamp',
         companyName: 'SIT Academy, Zurich, CH',
-        // workFrom: 'On Site',
+        workFrom: 'On Site',
         link: sitCert,
     },
     {
@@ -37,7 +53,7 @@ const Expriences = [
         logo: felixideas,
         position: 'Software Engineer Intern, Assistant Trainer',
         companyName: 'felixideas GmbH, Basel, CH',
-        // workFrom: 'On Site',
+        workFrom: 'On Site',
         link: felixCert,
     },
     {
@@ -53,7 +69,7 @@ const Expriences = [
         logo: imi,
         position: 'BA in Hospitality Entrepreneurship',
         companyName: 'IMI, Lucerne, CH',
-        // workFrom: 'On Site',
+        workFrom: 'On Site',
         link: imiCert,
     },
 

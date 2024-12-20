@@ -3,9 +3,9 @@ import { Link } from 'react-scroll'
 
 import hero1 from '../../images/ben/2B.jpg'
 
-import icon1 from '../../images/icon/react.svg'
-import icon2 from '../../images/icon/vue.svg'
-import icon3 from '../../images/icon/docker.svg'
+import vue from '../../images/icon/vue.svg'
+import salesforceLogo from '../../images/salesforce-logo.webp'
+import salesforce from '../../images/salesforce.png'
 
 import shape1 from '../../images/slider/line-1.png'
 import shape2 from '../../images/slider/line-2.png'
@@ -25,10 +25,10 @@ const Hero = () => {
                                         <h2><span>Hello,</span>I'm Ben</h2>
                                     </div>
                                     <div data-swiper-parallax="300" className="slide-sub-title">
-                                        <h5>Full Stack Web Developer</h5>
+                                        <h5>Salesforce Administrator</h5>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>I'm a web developer looking to continue my new career in Full Stack, starting with Frontend!</p>
+                                        <p>Trilingual Salesforce wizard weaving user-friendly magic with tech-savvy spells in English, German, and French—bridging the gap between sleek design and seamless CRM solutions, all while thriving on challenges and collaboration.</p>
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="slide-btn"><Link className="theme-btn" to="footer" spy={true} smooth={true} duration={500}>Interested</Link></div>
@@ -42,15 +42,15 @@ const Hero = () => {
                 <div className="static-hero-img">
                     <div className="static-hero-img-inner">
                         <img className="profile-pic" src={hero1} alt="" />
-                        <div className="icon-1 floating-item"><img src={icon1} alt="" /></div>
-                        <div className="icon-2 floating-item"><img src={icon2} alt="" /></div>
-                        <div className="icon-3 floating-item"><img src={icon3} alt="" /></div>
+                        <div className="icon-1 floating-item"><img src={salesforce} alt="" /></div>
+                        <div className="icon-2 floating-item"><img src={vue} alt="" /></div>
+                        <div className="icon-3 floating-item"><img src={salesforceLogo} alt="" /></div>
                         <div className="project floating-item">
                             <div className="icon">
                                 <i className="fi flaticon-verified"></i>
                             </div>
                             <div className="p-text">
-                                <h3><span data-count="1500">5</span>+</h3>
+                                <h3><span data-count="1500">10</span>+</h3>
                                 <p>Projects</p>
                             </div>
                         </div>
