@@ -33,7 +33,7 @@ const Header = (props) => {
                                         <li><Link activeClass="active" to="experience" spy={true} smooth={true} duration={500}>Experience</Link></li>
                                         <li>
                                             <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={500}>Portfolio</Link>
-                                        </li>
+                                        </li> 
                                     </ul>
                                 </div>
                             </div>
