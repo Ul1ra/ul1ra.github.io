@@ -2,7 +2,7 @@
   "name": "ben-react",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://ul1ra.github.io",
+  "homepages": "https://ul1ra.github.io/",
   "dependencies": {
     "-": "^0.0.1",
     "@material-ui/core": "^4.12.3",
